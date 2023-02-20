@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+#navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#navbar ul {
+    list-style: none;
+    padding-left: 0;
+    text-transform: uppercase;
+}
+
+#navbar ul li {
+    display: inline-block;
+}
+
+.nav-item {
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: gainsboro;
+    color: black;
+}
+
+.search-icon {
+    padding: 12px 24px;
+}
+
+.search-icon:hover {
+    background-color: crimson;
+}
+/* End Navbar */
+
+/* Slider */
+#slider {
+    position: relative;
+}
+
+#slider img {
+    width: 100%;
+}
+
+#slider .slider-box-text {
+    position: absolute;
+    color: white;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.slider-box-text p {
+    margin-top: 20px;
+}
+/* End Slider */
+
+/* About */
+.container {
+    width: 800px;
+}
+
+#about {
+    margin: 70px auto;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.slogan {
+    display: block;
+    margin: 20px 0;
+    color: gray;
+    text-align: center;
+}
+
+.about-desc {
+    text-align: justify;
+}
+
+/* End About */
+
+/* Members */
+#members {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.member {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.member img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.member p {
+    margin-bottom: 20px;
+}
+/* End Members */
+
+/* Tours */
+#tours {
+    background-color: black;
+    padding: 70px 0;
+}
+
+.tours-title {
+    color: white;
+}
+
+.calendar {
+    background-color: white;
+    color: gray;
+    margin: 40px auto;
+}
+
+.calendar p {
+    border-bottom: 1px solid gray;
+    padding: 13px;
+}
+
+.destinations {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.destination {
+    background-color: white;
+    width: 32%;
+}
+
+.destination img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.dest-text {
+    padding: 16px;
+}
+
+.dest-text-gray {
+    color: gray;
+    margin: 20px 0;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: gainsboro;
+    color: black;
+}
+/* End Tours */
+
+/* Contact */
+#contact {
+    margin: 70px 0;
+}
+
+.contact-box {
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    font-size: 18px;
+}
+
+.contact-icon {
+    margin-right: 12px;
+}
+
+.contact-form {
+    width: 400px;
+    text-align: right;
+}
+
+.contact-form form input {
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box input {
+    width: 48%;
+}
+
+.input-full {
+    width: 100%;
+}
+
+.contact-img {
+    width: 100%;
+    padding-top: 40px;
+}
+/* End Contact */
+
+/* Footer */
+#footer {
+    margin-bottom: 70px;
+    text-align: center;
+    color: gray;
+}
+
+.footer-icons {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer-icons .footer-icon:hover {
+    opacity: 0.7;
+}
+/* End Footer */

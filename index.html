@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <title>The Band</title>
+    </head>
+    <body>
+        <div id="navbar">
+            <ul>
+                <li><a class="nav-item" href="#slider">home</a></li>
+                <li><a class="nav-item" href="#about">band</a></li>
+                <li><a class="nav-item" href="#tours">tour</a></li>
+                <li><a class="nav-item" href="#contact">contact</a></li>
+                <li class="nav-item">
+                    more
+                    <i class="bi bi-caret-down-fill"></i>
+                </li>
+            </ul>
+            <i class="bi bi-search search-icon"></i>
+        </div>
+
+        <div id="slider">
+            <img src="./images/slider.jpg" alt="slider" />
+            <div class="slider-box-text">
+                <h3>Chicago</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+        </div>
+        <div id="about" class="container">
+            <h2 class="title">The band</h2>
+            <i class="slogan">We love music</i>
+            <p class="about-desc">
+                We have created a fictional band website. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.
+            </p>
+        </div>
+        <div id="members">
+            <div class="member">
+                <p>Name</p>
+                <img src="./images/bandmember.jpg" alt="" />
+            </div>
+            <div class="member">
+                <p>Name</p>
+                <img src="./images/bandmember.jpg" alt="" />
+            </div>
+            <div class="member">
+                <p>Name</p>
+                <img src="./images/bandmember.jpg" alt="" />
+            </div>
+        </div>
+        <div id="tours">
+            <h2 class="title tours-title">TOUR DATES</h2>
+            <i class="slogan">Remember to book your tickets!</i>
+            <div class="calendar container">
+                <p>September</p>
+                <p>October</p>
+                <p>November</p>
+            </div>
+            <div class="destinations container">
+                <div class="destination">
+                    <img src="./images/newyork.jpg" alt="" />
+                    <div class="dest-text">
+                        <b>New York</b>
+                        <p class="dest-text-gray">Fri 27 Nov 2016</p>
+                        <p>
+                            Praesent tincidunt sed tellus ut rutrum sed vitae
+                            justo.
+                        </p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="destination">
+                    <img src="./images/paris.jpg" alt="" />
+                    <div class="dest-text">
+                        <b>Paris</b>
+                        <p class="dest-text-gray">Fri 27 Nov 2016</p>
+                        <p>
+                            Praesent tincidunt sed tellus ut rutrum sed vitae
+                            justo.
+                        </p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="destination">
+                    <img src="./images/sanfran.jpg" alt="" />
+                    <div class="dest-text">
+                        <b>San Francisco</b>
+                        <p class="dest-text-gray">Fri 27 Nov 2016</p>
+                        <p>
+                            Praesent tincidunt sed tellus ut rutrum sed vitae
+                            justo.
+                        </p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <h2 class="title">CONTACT</h2>
+            <i class="slogan">Fan? Drop a note!</i>
+            <div class="container contact-box">
+                <div class="contact-info">
+                    <p>
+                        <i class="bi bi-geo-alt-fill contact-icon"></i> Chicago,
+                        US
+                    </p>
+                    <p>
+                        <i class="bi bi-telephone-fill contact-icon"></i> Phone:
+                        +00 151515
+                    </p>
+                    <p>
+                        <i class="bi bi-envelope-fill contact-icon"></i> Email:
+                        mail@mail.com
+                    </p>
+                </div>
+                <div class="contact-form">
+                    <form action="#">
+                        <div class="input-box">
+                            <input type="text" placeholder="Name" />
+                            <input type="text" placeholder="Email" />
+                        </div>
+                        <input
+                            type="text"
+                            placeholder="Message"
+                            class="input-full"
+                        />
+                        <button class="btn">SEND</button>
+                    </form>
+                </div>
+            </div>
+            <img class="contact-img" src="./images/contact.jpg" alt="" />
+        </div>
+        <footer id="footer">
+            <div class="footer-icons">
+                <i class="bi bi-facebook footer-icon"></i>
+                <i class="bi bi-instagram footer-icon"></i>
+                <i class="bi bi-snapchat footer-icon"></i>
+                <i class="bi bi-pinterest footer-icon"></i>
+                <i class="bi bi-twitter footer-icon"></i>
+                <i class="bi bi-linkedin footer-icon"></i>
+            </div>
+            <p>
+                Powered by
+                <a href="https://www.youtube.com/" target="_blank">Trung</a>
+            </p>
+        </footer>
+    </body>
+</html>
